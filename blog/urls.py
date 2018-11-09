@@ -9,6 +9,8 @@ urlpatterns = [
     url(r'^borrador/$', views.borrador, name='borrador'),
     url(r'^post/(?P<pk>\d+)/publicados/$', views.publicar, name='publicar'),
     url(r'^post/(?P<pk>\d+)/eliminar/$', views.eliminar, name='eliminar'),
+    url(r'^accounts/profile/$', views.post_list, name='list'),
+
 
 
 ]
